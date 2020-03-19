@@ -7,9 +7,13 @@ This model is built using Processing. Please download the latest version and run
 I've made some variables you can experiment with to see how they affect the spread of the disease. Here's what each variable represents:
 
 `infectionChance` - the chance out of 100 that contact with an infected blob will lead to infection
+
 `recoveryChance` - the chance out of 100 that an infected blob will not die after the disease runs its course
+
 `isolationChance` - the chance that a blob will be isolated. in other words, the percentage of blobs that are practicing social distancing.
+
 `sicknessLength` - the duration, in frames, that the blob has the illness.
+
 `blobCount` - the number of blobs in the model region. Can be used to adjust the density.
 
 ## Open Source/Legal
